@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+.npm/
+
+# env / secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# build output
+client/dist/
+dist/
+build/
+
+# logs
+*.log
+npm-debug.log*
+logs/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local scratch
+tmp/
+*.local

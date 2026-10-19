@@ -1,0 +1,14 @@
+{
+  "name": "@invoice/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Money math, totals and validation shared by the React client and the Express server",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test src/*.test.js"
+  }
+}
